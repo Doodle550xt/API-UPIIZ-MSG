@@ -1,0 +1,12 @@
+package com.upiiz.ajedrez.repositories;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.upiiz.ajedrez.entities.Notification;
+
+
+@Repository
+public interface NotificationRepository extends CrudRepository<Notification, Long> {
+        // Aquí puedes agregar métodos personalizados si los necesitas
+}
