@@ -25,9 +25,9 @@ envía notificaciones en tiempo real utilizando Firebase.
 
 Antes de iniciar, asegúrate de contar con:
 
-1.  **JDK 17** o superior\
-2.  **Maven** (o usar el wrapper `mvnw`)\
-3.  **MySQL Server** local o remoto\
+1.  **JDK 17** o superior
+2.  **Maven** 
+3.  **MySQL Server** local o remoto
 4.  Una cuenta activa en **Firebase Console**
 
 ------------------------------------------------------------------------
@@ -78,21 +78,19 @@ Usa **variables de entorno** en producción.
 
 Para habilitar notificaciones:
 
-1.  Ve a **Firebase Console**\
-2.  Navega a **Configuración del proyecto → Cuentas de servicio**\
-3.  Haz clic en **Generar nueva clave privada**\
-4.  Descarga el archivo `.json`\
+1.  Ve a **Firebase Console**
+2.  Navega a **Configuración del proyecto → Cuentas de servicio**
+3.  Haz clic en **Generar nueva clave privada**
+4.  Descarga el archivo `.json`
 5.  Renómbralo a:
 
 ```{=html}
-<!-- -->
 ```
     firebase-service-account.json
 
 6.  Muévelo a:
 
 ```{=html}
-<!-- -->
 ```
     src/main/resources/firebase-service-account.json
 
