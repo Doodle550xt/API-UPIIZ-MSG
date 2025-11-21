@@ -7,16 +7,16 @@ Boot](https://img.shields.io/badge/Spring_Boot-3.x-brightgreen)
 
 Este proyecto es una **API REST en Spring Boot** que funciona como
 backend para enviar notificaciones. Gestiona almacenamiento de tokens, y
-envía notificaciones en tiempo real utilizando Firebase.
+envía notificaciones  utilizando Firebase.
 
 ------------------------------------------------------------------------
 
 ## 🛠️ Tecnologías
 
--   **Lenguaje:** Java\
--   **Framework:** Spring Boot (Web, Data JPA)\
--   **Base de Datos:** MySQL\
--   **Servicios Cloud:** Firebase (Auth & Cloud Messaging)\
+-   **Lenguaje:** Java
+-   **Framework:** Spring Boot (Web, Data JPA)
+-   **Base de Datos:** MySQL
+-   **Servicios Cloud:** Firebase (Auth & Cloud Messaging)
 -   **Gestor de Dependencias:** Maven
 
 ------------------------------------------------------------------------
@@ -85,14 +85,14 @@ Para habilitar notificaciones:
 5.  Renómbralo a:
 
 ```{=html}
-```
     firebase-service-account.json
+```
 
 6.  Muévelo a:
 
 ```{=html}
-```
     src/main/resources/firebase-service-account.json
+```
 
 🔐 Asegúrate de agregarlo al `.gitignore`.
 
