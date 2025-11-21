@@ -33,8 +33,8 @@ public class TokenService {
         return tokenRepository.save(token);
     }
 
-    public void deleteToken(Long id) {
-        tokenRepository.deleteById(id);
+    public void deleteToken(String token) {
+        tokenRepository.deleteById(token);
     }
 
     public Token getTokenByValue(String tokenValue) {

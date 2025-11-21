@@ -7,6 +7,7 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "token")
 public class Token {
+    
     @Id
     private String token;
 

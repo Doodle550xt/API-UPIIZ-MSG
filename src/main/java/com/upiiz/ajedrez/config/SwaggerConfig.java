@@ -10,7 +10,7 @@ import io.swagger.v3.oas.annotations.servers.Server;
     info = @Info(
         title = "API de Notificaciones - Firebase",
         description = "API para gestionar tokens de usuarios y enviar notificaciones utilizando Firebase",
-        version = "1.0.0",
+        version = "2.0.0",
         contact = @Contact(
             name = "Cristian García Nieves",
             url = "https://github.com/crisgnh01", 
@@ -23,7 +23,8 @@ import io.swagger.v3.oas.annotations.servers.Server;
         termsOfService = "https://mint.com/terminos"
     ),
     servers = {
-        @Server(url = "https://api-upiiz-msg.onrender.com", description = "Servidor de producción")
+        @Server(url = "https://api-upiiz-msg.onrender.com", description = "Servidor de producción"),
+        @Server(url = "http://localhost:8080", description = "Servidor de Pruebas")
     }
 )
 public class SwaggerConfig {

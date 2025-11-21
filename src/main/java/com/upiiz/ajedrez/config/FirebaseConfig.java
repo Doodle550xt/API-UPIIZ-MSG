@@ -19,7 +19,7 @@ public class FirebaseConfig {
     @Bean
     public GoogleCredentials googleCredentials() throws IOException {
         // Suponiendo que tu JSON de credenciales está en resources
-        InputStream serviceAccount = new ClassPathResource("gameupiiz-firebase-adminsdk-fbsvc-81b2f1a22e.json").getInputStream();
+        InputStream serviceAccount = new ClassPathResource("gameupiiz-firebase-adminsdk-fbsvc-858ba58cf0.json").getInputStream();
         return GoogleCredentials.fromStream(serviceAccount);
     }
 
