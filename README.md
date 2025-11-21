@@ -37,8 +37,8 @@ Antes de iniciar, asegúrate de contar con:
 ### 1. Clonar el repositorio
 
 ``` bash
-git clone https://github.com/tu-usuario/ajedrez-backend.git
-cd ajedrez-backend
+git clone https://github.com/Doodle550xt/API-UPIIZ-MSG.git
+cd api-upiiz-msg
 ```
 
 ------------------------------------------------------------------------
