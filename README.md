@@ -11,7 +11,7 @@ envía notificaciones  utilizando Firebase.
 
 ------------------------------------------------------------------------
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 -   **Lenguaje:** Java
 -   **Framework:** Spring Boot (Web, Data JPA)
@@ -21,7 +21,7 @@ envía notificaciones  utilizando Firebase.
 
 ------------------------------------------------------------------------
 
-## 📋 Requisitos Previos
+## Requisitos Previos
 
 Antes de iniciar, asegúrate de contar con:
 
@@ -69,7 +69,7 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 ```
 
-⚠️ **Importante:** No subas contraseñas reales a repositorios públicos.\
+**Importante:** No subas contraseñas reales a repositorios públicos.\
 Usa **variables de entorno** en producción.
 
 ------------------------------------------------------------------------
@@ -94,11 +94,11 @@ Para habilitar notificaciones:
     src/main/resources/firebase-service-account.json
 ```
 
-🔐 Asegúrate de agregarlo al `.gitignore`.
+Asegúrate de agregarlo al `.gitignore`.
 
 ------------------------------------------------------------------------
 
-## 🚀 Ejecución
+## Ejecución
 
 ### Compilar el proyecto
 
@@ -114,4 +114,4 @@ mvn spring-boot:run
 
 La API estará disponible en:
 
-👉 **http://localhost:8080**
+ **http://localhost:8080**
