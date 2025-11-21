@@ -1,4 +1,4 @@
-# ♟️ API - Backend Spring Boot
+# API - Backend Spring Boot
 
 ![Java](https://img.shields.io/badge/Java-17%2B-orange) ![Spring
 Boot](https://img.shields.io/badge/Spring_Boot-3.x-brightgreen)
@@ -32,7 +32,7 @@ Antes de iniciar, asegúrate de contar con:
 
 ------------------------------------------------------------------------
 
-## ⚙️ Configuración del Proyecto
+## Configuración del Proyecto
 
 ### 1. Clonar el repositorio
 
